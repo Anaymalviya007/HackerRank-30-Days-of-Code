@@ -10,7 +10,6 @@ int main()
 {
      int n;
     cin>>n;
-    cin.ignore(numeric_limits<streamsize>::max(),'\n');
     if(n%2==0)
     {
         if(n>=2 && n<=5)
